@@ -19,7 +19,7 @@ This project includes a landing page, admin dashboard, dynamic services manageme
 
 ## Features
 
-🌐 Landing Page
+### 🌐 Landing Page
 
 ✔ Hero Section
 
@@ -32,4 +32,35 @@ This project includes a landing page, admin dashboard, dynamic services manageme
 ✔ Footer
 
 ✔ Smooth animations
+
+### 🛠️ Admin Dashboard
+
+✔ Add New Services
+
+✔ Delete Services
+
+✔ Automatically Updates Landing Page
+
+✔ View Contact Messages
+
+✔ Stored in LocalStorage
+
+✔ Sidebar Navigation
+
+✔ Fully responsive Admin UI
+
+## 💡 How It Works
+
+1. Add Service from Admin
+
+- Go to /admin
+- Fill service form
+- New service appears instantly on Landing Page
+- Data persists (LocalStorage)
+
+2. Submit Contact Form
+
+- User fills name, email, message
+- Message stored in LocalStorage
+- Admin can view all messages in real-time
 

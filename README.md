@@ -4,8 +4,12 @@ A fully functional React-based web application built as part of the Oditech Inno
 
 This project includes a landing page, admin dashboard, dynamic services management, contact form, and responsive UI.
 
+----
+
 ## Live Preview
 [innovation](https://oditechglobal-innovations.vercel.app/)
+
+-----
 
 ## Technologies Used
 
@@ -16,6 +20,8 @@ This project includes a landing page, admin dashboard, dynamic services manageme
 - Plain CSS (Fully responsive)
 - CSS Animations
 - React Hooks
+
+  -----
 
 ## Features
 
@@ -49,6 +55,8 @@ This project includes a landing page, admin dashboard, dynamic services manageme
 
 ✔ Fully responsive Admin UI
 
+-----
+
 ## 💡 How It Works
 
 1. Add Service from Admin
@@ -64,6 +72,8 @@ This project includes a landing page, admin dashboard, dynamic services manageme
 - Message stored in LocalStorage
 - Admin can view all messages in real-time
 
+-----
+
 ## Images
 
 <img width="1366" height="727" alt="image" src="https://github.com/user-attachments/assets/6792a093-d7a0-43b6-83bf-4bd056b2ccdf" />
@@ -72,6 +82,22 @@ This project includes a landing page, admin dashboard, dynamic services manageme
 <img width="1366" height="724" alt="image" src="https://github.com/user-attachments/assets/5b8bfeb2-4ebf-43d0-8193-546b325f5a7e" />
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/fa8f8539-ecf6-4070-92c0-ded765bf9672" />
 <img width="1366" height="726" alt="image" src="https://github.com/user-attachments/assets/6b02bc43-f6b1-4ed5-b181-33a08890040d" />
+
+-----
+
+**🙋‍♀️ Author**
+
+## Manaswini Sasmal
+
+📲 - 6370094643
+
+👩‍💻 Frontend Developer | React Enthusiast
+
+🔗 Portfolio - https://manaswini-portfolio.vercel.app/
+
+📧 manaswinisasmal5597@gmail.com
+
+🔗 LinkedIn - https://www.linkedin.com/in/manaswini-sasmal-b77a21162/
 
 
 

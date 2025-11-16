@@ -222,21 +222,7 @@ body {
 }
 
 
-.testimonials {
-  text-align: center;
-  padding: 60px 20px;
-  background: #f0f6ff;
-}
 
-.testimonial {
-  display: inline-block;
-  width: 250px;
-  margin: 10px;
-  background: white;
-  border-radius: 12px;
-  padding: 20px;
-  box-shadow: 0 3px 12px rgba(0,0,0,0.1);
-}
 
 .service-list {
   display: grid;
@@ -351,97 +337,161 @@ body {
   }
 }
 
+/* testimonial part */
+
+.testimonials {
+  padding: 70px 20px;
+  background: #f7faff;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #0077ff;
+}
+
+.carousel {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.testimonial-card {
+  background: white;
+  padding: 30px 25px;
+  border-radius: 14px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+  min-height: 200px;
+  transition: 0.4s;
+}
+
+.message {
+  font-size: 18px;
+  color: #444;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  font-style: italic;
+}
+
+.testimonial-card h3 {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.testimonial-card span {
+  font-size: 14px;
+  color: #777;
+}
+
+/* Dots */
+.dots {
+  margin-top: 20px;
+}
+
+.dot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: #d6e2ff;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.dot.active {
+  background: #0077ff;
+}
+
+/* Slide Animation */
+.slide {
+  animation: fadeIn 0.6s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(15px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
 /* ================================
    SERVICES SECTION
 ================================ */
 
 .services {
-  padding: 70px 20px;
-  background: #f9fbff;
+  padding: 60px 20px;
+  background: #f3f6ff;
   text-align: center;
-
 }
 
 .services h2 {
   font-size: 32px;
   margin-bottom: 35px;
-  color: #222;
+  color: #111;
   font-weight: 700;
 }
-
-/* Grid layout */
-.services-list {
-  display: grid ;
-  grid-template-columns: repeat(3, minmax(0, 1fr)) ;
-  gap: 25px ;
-  margin: 0 auto ;
+ 
+/* GRID: 3 items in one row */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-/* Individual Service Card */
+/* CARD STYLE (same as admin) */
 .service-card {
   background: #ffffff;
   border-radius: 14px;
-  padding: 25px 20px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 30px 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
   text-align: center;
-  
 }
 
-/* Hover effect */
 .service-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
 }
 
-/* Service Icon */
+/* ICON */
 .service-card img {
-  width: 70px;
-  height: 70px;
+  width: 80px;
+  height: 80px;
   object-fit: contain;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
-/* Title */
+/* TITLE */
 .service-card h3 {
   font-size: 20px;
   font-weight: 600;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
   color: #0077ff;
 }
 
-/* Description */
+/* DESCRIPTION */
 .service-card p {
   font-size: 15px;
-  color: #555;
+  color: #444;
   line-height: 1.5;
 }
 
-/* Slide-Up Animation */
-.slideUp {
-  opacity: 0;
-  transform: translateY(25px);
-  animation: slideUp 0.7s ease forwards;
-}
 
-@keyframes slideUp {
-  to {
-    opacity: 1;
-    transform: translateY(0);
+/* RESPONSIVE */
+@media (max-width: 992px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
-/* Mobile Responsive Fixes */
 @media (max-width: 600px) {
-  .services {
-    padding: 55px 15px;
-  }
-
-  .service-card {
-    padding: 20px;
+  .services-grid {
+    grid-template-columns: 1fr;
   }
 }
-
 
 
 /* --- Contact Section Wrapper --- */

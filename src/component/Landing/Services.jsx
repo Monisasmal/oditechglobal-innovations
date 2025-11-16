@@ -7,10 +7,10 @@ function Services() {
   return (
     <section className="services">
       <h2>Our Services</h2>
-      <div className="services-list">
+      <div className="services-grid">
         {services.length === 0 ? (
           <p>No services yet. Add from admin dashboard.</p>
-        ) : (
+        ) : ( 
           services.map((srv, index) => (
             <div key={index} className="service-card slideUp">
               <img src={srv.icon} alt={srv.title} />

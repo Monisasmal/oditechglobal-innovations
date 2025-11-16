@@ -21,7 +21,7 @@ function LandingPage() {
   {services.length === 0 ? (
     <p>No services added yet.</p>
   ) : (
-    <div className="service-grid">
+    <div className="services-grid">
       {services.map((srv, index) => (
         <div key={index} className="service-card">
           <img src={srv.icon} alt={srv.title} />

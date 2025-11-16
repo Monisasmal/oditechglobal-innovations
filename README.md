@@ -1,16 +1,104 @@
-# React + Vite
+# Oditech Innovations – Frontend Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully functional React-based web application built as part of the Oditech Innovations Frontend Developer Assignment.
 
-Currently, two official plugins are available:
+This project includes a landing page, admin dashboard, dynamic services management, contact form, and responsive UI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+----
 
-## React Compiler
+## Live Preview
+[innovation](https://oditechglobal-innovations.vercel.app/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+-----
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (Vite)
+- React Router DOM
+- Context API
+- LocalStorage
+- Plain CSS (Fully responsive)
+- CSS Animations
+- React Hooks
+
+  -----
+
+## Features
+
+### 🌐 Landing Page
+
+✔ Hero Section
+
+✔ Services Section (Dynamic – loaded from Admin Panel)
+
+✔ Contact Form
+
+✔ Responsive Navigation
+
+✔ Footer
+
+✔ Smooth animations
+
+### 🛠️ Admin Dashboard
+
+✔ Add New Services
+
+✔ Delete Services
+
+✔ Automatically Updates Landing Page
+
+✔ View Contact Messages
+
+✔ Stored in LocalStorage
+
+✔ Sidebar Navigation
+
+✔ Fully responsive Admin UI
+
+-----
+
+## 💡 How It Works
+
+1. Add Service from Admin
+
+- Go to /admin
+- Fill service form
+- New service appears instantly on Landing Page
+- Data persists (LocalStorage)
+
+2. Submit Contact Form
+
+- User fills name, email, message
+- Message stored in LocalStorage
+- Admin can view all messages in real-time
+
+-----
+
+## Images
+
+<img width="1366" height="727" alt="image" src="https://github.com/user-attachments/assets/6792a093-d7a0-43b6-83bf-4bd056b2ccdf" />
+<img width="1359" height="722" alt="image" src="https://github.com/user-attachments/assets/0c48d138-bd2f-4fc9-a22d-06d2832e354d" />
+<img width="1366" height="720" alt="image" src="https://github.com/user-attachments/assets/f59e6b20-63e9-4a91-9419-facb72613599" />
+<img width="1366" height="724" alt="image" src="https://github.com/user-attachments/assets/5b8bfeb2-4ebf-43d0-8193-546b325f5a7e" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/fa8f8539-ecf6-4070-92c0-ded765bf9672" />
+<img width="1366" height="726" alt="image" src="https://github.com/user-attachments/assets/6b02bc43-f6b1-4ed5-b181-33a08890040d" />
+
+-----
+
+**🙋‍♀️ Author**
+
+## Manaswini Sasmal
+
+📲 - 6370094643
+
+👩‍💻 Frontend Developer | React Enthusiast
+
+🔗 Portfolio - https://manaswini-portfolio.vercel.app/
+
+📧 manaswinisasmal5597@gmail.com
+
+🔗 LinkedIn - https://www.linkedin.com/in/manaswini-sasmal-b77a21162/
+
+
+
+
